@@ -1180,7 +1180,17 @@ a:hover {
   }
 
   .header-nav.open { display: flex; }
+  .header-inner {
+    display: flex;
+    align-items: center;
+  }
 
+  .header-controls {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
   .nav-item {
     padding: 0.6rem 0.4rem;
     border-radius: 0;
@@ -1188,7 +1198,9 @@ a:hover {
     text-align: left;
   }
 
-  .hamburger { display: block; }
+  .hamburger { display: block; 
+  
+  }
 
   /* Stack layout */
   .rp-layout { flex-direction: column; }
@@ -1309,3 +1321,10 @@ a:hover {
   }
 }
 
+.s-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
